@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+}
+
+h1 {
+  background: blue;
+  color: white;
+}
+
+header {
+  background: red;
+  color: white;
+}
+
+.banner {
+  min-height: 20vh;
+  background: linear-gradient(90deg, red 80%, blue);
+}
+.off1 {
+  background: brown;
+}
+.off2 {
+  background: purple;
+}
+
+.side-menu {
+  background: skyblue;
+}
+
+.recent {
+}
+
+.tag {
+  background: orangered;
+}
+
+.main {
+  min-height: 30vh;
+  background: radial-gradient(red, blue);
+}
+
+.product1 {
+}
+footer {
+  background: black;
+  color: white;
+}
