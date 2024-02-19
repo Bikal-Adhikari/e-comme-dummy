@@ -90,12 +90,29 @@ footer {
       "h1 h1"
       "header header"
       "banner banner"
-      "banner banner"
       "off1 off2"
       "sm sm"
       "main main"
-      "main main"
       "recent tag"
       "footer footer";
+  }
+}
+
+/* Mobile  */
+@media (max-width: 550px) {
+  .wrapper {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "h1"
+      "header"
+      "banner"
+      "off1"
+      "off2"
+      "sm"
+      "main"
+      "recent"
+      "tag"
+      "footer";
   }
 }
