@@ -67,9 +67,15 @@ header {
 }
 
 .main {
-  min-height: 30vh;
-  background: radial-gradient(red, blue);
+  min-height: 10vh;
+  background: radial-gradient(red, white);
   grid-area: main;
+  display: flex;
+  width: 10vw;
+  margin-left: 500px;
+  box-shadow: 20px 20px 20px rgb(236, 6, 6);
+  justify-content: center;
+  align-items: center;
 }
 
 .product1 {
